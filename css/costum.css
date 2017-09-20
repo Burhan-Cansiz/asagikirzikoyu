@@ -1,0 +1,141 @@
+/*claslar*/
+
+li{list-style-type: none}
+.pr0{padding-right: 0!important}
+.pl7{padding-left: 7px!important}
+.pt8{padding-top: 8px!important}
+.bolumBaslik h4{
+    background: #ffe800;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: medium
+}
+.bolumBaslik hr{
+    background: #0f0f0d;
+    height: 1px;
+    margin: -7px auto
+}
+
+/*claslar*/
+
+/*bootstrap*/
+.btn-default{background: white}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #a6b2ad!important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+    background: none!important;
+}
+/*bootstrap*/
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border: 0px none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ff0000;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+html,body{height: 100%}
+body{
+    font-family: tahoma;
+    overflow-y: scroll
+}
+header{
+    padding: 19px 0 0 0;
+    background-image: url('../img/global/header-bg.png');
+}
+
+.haber h1{
+    font-size: medium;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: black
+}
+.haber h2{
+    font-size: small;
+    color: gray;
+    margin: 0;
+    overflow: hidden!important;
+    line-height: 17px;
+    height: 66px
+}
+.haber hr{
+    height: 1px;
+    background: black
+}
+
+.fotoAlbum{
+    margin-bottom: 15px
+}
+.fotoAlbum figure div{
+    z-index: 99;
+    position: absolute;
+    color: white;
+    right: 0;
+    width: 100%;
+    bottom: 0px;
+    padding: 0 15px;
+}
+.fotoAlbum p{
+    margin-bottom: 0;
+    height: 55px;
+    padding: 10px;
+    line-height: 33px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+background: -moz-linear-gradient(top, rgba(53,53,53,0) 0%, rgba(0,0,0,0.5) 83%, rgba(0,0,0,0.6) 100%);
+background: -webkit-linear-gradient(top, rgba(53,53,53,0) 0%,rgba(0,0,0,0.5) 83%,rgba(0,0,0,0.6) 100%);
+background: linear-gradient(to bottom, rgba(53,53,53,0) 0%,rgba(0,0,0,0.5) 83%,rgba(0,0,0,0.6) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00353535', endColorstr='#99000000',GradientType=0 );
+}
+.fotoAlbum span{
+    color: orange
+}
+
+
+
+
+
+
+
+
+
+
+footer>div{
+    background: black;
+    color: white;
+    padding: 25px 0
+}
+
+
